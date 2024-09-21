@@ -1,6 +1,6 @@
-# 🌱 EcoCondo: Gerenciamento Inteligente de Energia para Condomínios Sustentáveis
+# 🌱 EcoCondo: Gerenciamento Inteligente de Energia para Condomínios Sustentáveis 🌱
 
-### 🎯 Objetivo do Projeto
+## 🎯 Objetivo do Projeto
 O **EcoCondo** tem como objetivo oferecer aos condomínios ferramentas eficazes para o gerenciamento inteligente de energia, promovendo a sustentabilidade e a redução de custos relacionados ao consumo energético. O aplicativo possibilita o monitoramento em tempo real, identifica oportunidades de economia, e incentiva a adoção de práticas sustentáveis, tornando as comunidades mais conscientes e ambientalmente responsáveis.
 
 ## 📋 Backlog do Projeto
