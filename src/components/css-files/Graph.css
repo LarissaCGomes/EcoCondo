@@ -1,0 +1,88 @@
+/* Graph Container */
+.graph {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+  }
+  
+  .graph h3 {
+    font-size: 22px;
+    color: #333;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+  
+  /* Responsive Container for the Chart */
+  .graph .recharts-wrapper {
+    border-radius: 10px;
+  }
+  
+  /* Tooltip Customization */
+  .recharts-tooltip-wrapper {
+    background-color: #fff !important;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+  }
+  
+  .recharts-tooltip-item {
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .recharts-tooltip-label {
+    font-weight: bold;
+    color: #1976d2;
+  }
+  
+  /* X and Y Axis Customization */
+  .recharts-cartesian-axis-line,
+  .recharts-cartesian-axis-tick-line {
+    stroke: #ddd;
+  }
+  
+  .recharts-cartesian-axis-tick {
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .recharts-xAxis text {
+    font-size: 14px;
+    color: #333;
+  }
+  
+  /* Area chart colors and hover effects */
+  .recharts-area-stroke {
+    transition: stroke 0.3s ease, fill 0.3s ease;
+  }
+  
+  .recharts-area:hover {
+    stroke-width: 3px;
+    stroke: #1976d2;
+  }
+  
+  /* Chart Colors */
+  .recharts-area[data-key="Mar"] {
+    fill: #FF6B6B;
+    stroke: #FF6B6B;
+  }
+  
+  .recharts-area[data-key="Sep"] {
+    fill: #805AD5;
+    stroke: #805AD5;
+  }
+  
+  /* Chart responsiveness */
+  @media (max-width: 768px) {
+    .graph {
+      padding: 15px;
+    }
+  
+    .graph h3 {
+      font-size: 20px;
+    }
+  }
+  

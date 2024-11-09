@@ -1,0 +1,129 @@
+/* Navbar container */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  /* Search Input */
+  .navbar input[type="text"] {
+    width: 300px;
+    padding: 8px 15px;
+    font-size: 16px;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+    outline: none;
+    transition: border 0.3s ease;
+  }
+  
+  .navbar input[type="text"]:focus {
+    border-color: #1976d2;
+  }
+  
+  .navbar input[type="text"]::placeholder {
+    color: #888;
+  }
+  
+  /* Right side of the navbar */
+  .navbar-right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .navbar-right span {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  /* Hover effect for navbar right elements */
+  .navbar-right span:hover {
+    color: #1976d2;
+  }
+  
+  /* User Profile Image */
+  .navbar-right img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #ddd;
+    transition: border 0.3s ease;
+  }
+  
+  .navbar-right img:hover {
+    border-color: #1976d2;
+  }
+  
+  /* User and Language info styling */
+  .navbar-right span:last-child {
+    font-weight: bold;
+    color: #333;
+  }
+  
+
+  /* Modal Styling */
+.notification-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
+}
+
+.modal-content h4 {
+  margin-bottom: 10px;
+}
+
+.modal-content ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.modal-content li {
+  padding: 8px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.close-modal {
+  background-color: #FF6B6B;
+  border: none;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.close-modal:hover {
+  background-color: #FF4C4C;
+}
+
+/* Close Modal on Outside Click */
+.notification-modal:hover {
+  cursor: pointer;
+}
